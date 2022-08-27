@@ -23,11 +23,14 @@
     "@liveblocks/react": "^0.17.7",
     "@tldraw/core": "*",
     "@tldraw/tldraw": "*",
+    "@y-presence/client": "^2.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router": "^6.3.0",
     "react-router-dom": "^6.3.0",
-    "vite-tsconfig-paths": "^3.5.0"
+    "vite-tsconfig-paths": "^3.5.0",
+    "y-websocket": "^1.4.4",
+    "yjs": "^13.5.41"
   },
   "devDependencies": {
     "@types/react": "^18.0.15",

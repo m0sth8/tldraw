@@ -12,6 +12,8 @@ import Embedded from './embedded'
 import FileSystem from './file-system'
 import LoadingFiles from './loading-files'
 import { Multiplayer } from './multiplayer'
+import { YMultiplayer } from './y-multiplayer'
+
 import NoSizeEmbedded from './no-size-embedded'
 import Persisted from './persisted'
 import PropsControl from './props-control'
@@ -43,6 +45,7 @@ const pages: ({ path: string; component: any; title: string } | '---')[] = [
   { path: '/export', component: Export, title: 'Export' },
   { path: '/scroll', component: Scroll, title: 'In a scrolling container' },
   { path: '/multiplayer', component: Multiplayer, title: 'Multiplayer' },
+  { path: '/y-multiplayer', component: YMultiplayer, title: 'YMultiplayer' },
   { path: '/iframe', component: IFrame, title: 'IFrame' },
 ]
 
